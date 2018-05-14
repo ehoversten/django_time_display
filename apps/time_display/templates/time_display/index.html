@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Django Dojo Time</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'time_display/css/time_styles.css' %}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="navbar">
+          <h1>Current Time and Date:</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="time">
+          <h1>{{ time_now }}</h1>
+          
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

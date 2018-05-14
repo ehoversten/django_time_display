@@ -1,0 +1,23 @@
+* {
+  margin: 0px auto;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.header {
+  background-color: lightblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.time {
+  margin-top: 30px;
+  border: 2px solid green;
+  padding: 30px;
+}
